@@ -8,10 +8,10 @@ https://discord.gg/s4zsM8u
 
 Updated version past the Original Epicclub included the following changes
 
--Non-email verification
--Ability for name change
--Improved landing page
--Ability to censor comments
+-Non-email verification<br>
+-Ability for name change<br>
+-Improved landing page<br>
+-Ability to censor comments<br>
 
 Made by Genko#6666
 
