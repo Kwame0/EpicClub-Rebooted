@@ -13,7 +13,7 @@ Updated version past the Original Epicclub included the following changes
 -Improved landing page<br>
 -Ability to censor comments<br>
 
-Made by Genko#6666
+Updated by Genko#6666
 
 
 Note: There are no bugs (apart from one c:) in the ORIGINAL epicclub release
