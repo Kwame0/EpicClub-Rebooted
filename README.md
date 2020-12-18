@@ -4,7 +4,7 @@ Was going to be named SANSKiller<br>
 Old by today's standards. Sort of Messy<br>
 
 Support Discord
-https://discord.gg/s4zsM8u
+kwame#3186
 
 Updated version past the Original Epicclub included the following changes
 
