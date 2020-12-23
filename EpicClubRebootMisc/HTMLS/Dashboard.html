@@ -1,0 +1,25 @@
+<body>
+	<center>
+		<div style='height:115px;'></div> <!-- SPACE -->
+		<div id='platform' style='width:1200px; border:1px solid black;background-color:white;border-radius:10px;padding:20px;'>
+			<div id='AvatarSpace' style='border:1px solid black;border-radius:5px;padding:5px;width:200px;display:inline-block;'>
+				<h4> Hello $user['USERNAME'] </h4>
+				<img src='/EpicClubRebootMisc/IMGS/template.png' />
+			</div>
+			<div style='margin:0px;display:inline-block;width:950px;padding:7.5px;padding-top:0px;border-radius:5px;vertical-align:top;' id='Mind'>
+				<form method='post' action='#'>
+						<input name='status' style='margin:0px;border:1px solid black;padding:10px;width:880px;border-radius:5px;' placeholder='What is on your mind?'> 
+							<i  class='fa fa-comments-o' style='margin:0px;font-size:15px;padding:5px;margin-left:0px;display:inline-block;border:1px solid black;border-radius:5px;'> </i>
+						</input>
+				</form>
+
+
+					<div style='border:1px solid black;padding:20px;border-radius:5px;width:900;padding-left:10px;padding-top:7.5px;padding-bottom:10px;'>
+						<h3 style='text-align:left;'>Recent Events</h3>
+						<!-- INSERT PHP LOOP HERE -->
+					</div>
+			</div>
+
+		</div>
+	</center>
+</body>

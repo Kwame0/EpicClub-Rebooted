@@ -1,0 +1,52 @@
+<html>
+		<head>
+			<title> EpicClub Rebooted - Wisermen Interactive (R) </title>
+			<script type='text/javascript' src='/EpicClubRebootMisc/functions2.js'></script>
+			<link rel='stylesheet' type='text/css' href='/EpicClubRebootMisc/global.css' />
+			<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' />
+		</head>
+		<body>
+			<div style='display:block;' id='OVBackground'></div>
+			<div style='display:block;' id='Overlay'>
+			<center>
+				<!-- Login Box -->
+				<div style='display:none;width:500px;' class='SBox' id='LoginBox'>
+					<button onclick='CloseLogin()' style='position:relative;right:-235px;font-weight:bold;font-size:10px;padding:2.5px;width:30px;border-radius:0px;'>X</button>
+					<h2>Login</h2>
+					<form method='post' action='login.php'>
+						<input id='usernameLogin' class='Ginput' name='Username' placeholder="Username" maxlength='20' required /><br>
+						<input class='Ginput' name='password1' type='password' placeholder="Password" required /><br>
+						<button> Submit </button>
+					</form>
+				</div>
+				
+				<!-- Register Box -->
+				<div style='display:block;width:500px;' class='SBox' id='RegisterBox'>
+					<button onclick='CloseRegi()' style='position:relative;right:-235px;font-weight:bold;font-size:10px;padding:2.5px;width:30px;border-radius:0px;'>X</button>
+					<h2>Sign Up!</h2>
+					<form method='post' action='register.php'>
+						<input id='username' class='Ginput' onkeyup='ValidateEpicU()' maxlength='20' name='Username' placeholder="Desired Username" value='<?php $username ?>' required /><br>
+						<input class='Ginput' name='email' type='email' placeholder="Email" value='<?php $email ?>'  required /><br>
+						<input style='border-color:red;' class='Ginput' name='password1' type='password' placeholder="Password" required /><br>
+						<input style='border-color:red;' class='Ginput' name='password2' type='password' placeholder="Retype Password"  required /><br><br>
+						<div style='font-size:15px;white-space: nowrap;'>
+							<input class='GCheckBox' name='Gender' type='radio' checked value='M'> Male</input>
+							<input class='GCheckBox' name='Gender' type='radio' value='F'> Female</input>
+						</div><br>
+						<button> Submit </button><br>
+						<text style='font-size:15px;color:#ed4747;'> Re-enter Password Fields! </text>
+					</form>
+				</div>
+			
+			</center>
+			</div>
+			
+			<div style='margin-bottom:200px;background-color:white;padding:10px;border:1px solid black;border-top:0px;border-radius-bottom-left:5px;border-radius-bottom-right:5px;' id='navbar'>
+				<a style='margin-right:5.5px;margin-left:5.5px;' href='/Dashboard/'>Dashboard</a>  |  <a style='margin-right:5.5px;margin-left:5.5px;' href='/Emporium/'>Emporium</a>  |  <a style='margin-right:5.5px;margin-left:5.5px;' href='/Play/'>Play</a>  |  <a style='margin-right:5.5px;margin-left:5.5px;' href='/Forums/'>Forums</a>  |  <a style='margin-right:5.5px;margin-left:5.5px;' href='/Upgrade/'>Upgrade</a>  |  <a style='margin-right:5.5px;margin-left:5.5px;' href='/News/'>News</a>  
+			</div>
+			<center>
+				<text style='font-size:85px;'> EpicClub Rebooted </text><br>
+				<button onclick='LoginBoxAppr()' style='border:1px solid grey;'>Login</button> <button onclick="RegisterBoxAppr()" style='border:1px solid grey;'>Register</button>
+			</center>
+		<body>
+	</html>
