@@ -1,4 +1,5 @@
 # EpicClub Rebooted Legacy
+## Warning: A couple of bugs have been detected in this semi-official version of epicclub, I will soon be updating this github to only have the offical, original & bugless version of EC. 
 Was going to be named SANSKiller<br>
 3rd Revision of EpicClub<br>
 Old by today's standards. Sort of Messy<br>
